@@ -1,0 +1,105 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(O%20MENI%20BG.jpg);
+    text-indent: 0px;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+	position: fixed;
+	top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header img {
+  width: 100px; 
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+.ljubičasta:hover {
+    color: purple;
+    background-image: url(OmeniBG.jpg);
+}
+
+.žuta:hover {
+  color: yellow;
+}
+
+.zelena:hover {
+  color: green;
+}
+
+.plava:hover {
+  color: blue;
+}
+
+h1 {  
+	margin-top: 150px;
+	margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: large;
+	}
+	
+h2 { 
+	margin-top: 80px;
+	margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: large;
+	}
+
+p { 
+	margin-top: 80px;
+	margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: large;
+}
+
+h1 { 
+
+    color: #D800FF;
+}
+
+h2 {
+    color: #D800FF;
+}
+
+p {
+    color: #000000;
+}
+
+main img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 100px; 
+}

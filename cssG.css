@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../Kontakt%20BG.jpg);
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+	position: fixed;
+	top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header img {
+  width: 100px; 
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: purple;
+}
+
+.ljubičasta:hover {
+  color: purple;
+}
+
+.žuta:hover {
+  color: yellow;
+}
+
+.zelena:hover {
+  color: green;
+}
+
+.plava:hover {
+  color: blue;
+}
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header img {
+    width: 100px; 
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+.ljubičasta:hover {
+    color: purple;
+}
+
+.žuta:hover {
+    color: yellow;
+}
+
+.zelena:hover {
+    color: green;
+}
+
+.plava:hover {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column {
+    margin: 0 20px;
+    text-align: center;
+}
+
+h2 {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.subject {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.subject:hover {
+    background-color: green;
+    color: white;
+}
